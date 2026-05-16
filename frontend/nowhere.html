@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Tailwind CSS group CDN Link -->
+   <script src="https://cdn.tailwindcss.com"></script>
+   <!-- Tailwind CSS CDN Link -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Icons link -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-200">
+    <section class="bg-gray-100">
+        <!-- Responsive Navbar -->
+          <section class="bg-red-900 sticky z-50 top-0">
+            <nav class="flex justify-between p-3 bg shadow-lg shadow-black border-b border-gray-300">
+                <div class="">
+                    <h1 class="text-2xl font-extrabold text-white">Tech Forze</h1>
+                </div>
+
+                <!-- categories -->
+                <div>
+                    <ul class="flex gap-11 text-white font-medium">
+
+
+                        <li>
+                            <a href="./index.html">Home</a>
+                        </li>
+
+
+                        <li class="">
+                            <a href="./book.html">Books</a>
+
+
+                        </li>
+                        <div>
+                            <li>
+                                <a href="./publish.html">Publish with Us</a>
+                            </li>
+                        </div>
+
+
+                    </ul>
+                </div>
+
+
+
+                <!-- MyAccount -->
+                <div class="relative ">
+                    <!-- Trigger Text -->
+                    <div id="account" class="flex gap-3 items-center ">
+                        <i class="fa-solid fa-user" style="color: #fcf9f9;"></i>
+                        <div class="cursor-pointer mr-4 text-white" onclick="account()">My Account</div>
+                    </div>
+
+                    <!-- Dropdown Menu -->
+                    <div id="menu"
+                        class="absolute  hidden  bg-white w-44 p-4 shadow-lg rounded-lg text-center z-50 top-full right-0">
+                        <a href="./login.html"
+                            class="p-2 bg-red-700 w-36 inline-block mb-2 text-white  rounded hover:bg-red-800">Login</a>
+                        <br>
+                        <a href="./signup.html" class="text-red-700 hover:text-black mb-2">New to TechForze? Sign Up</a>
+                        <br>
+                        <a href="./login.html" class="text-gray-700 hover:text-black mb-2">Your Account</a> <br>
+                        <a href="./login.html" class="text-gray-700 hover:text-black">Your Address</a> <br>
+                    </div>
+                </div>
+            </nav>
+        </section>
+     
+        <section>
+            <div>
+
+                <div class="p-5 text-center">
+                    <h1 class="font-bold text-2xl ">Nowhere Man <p class="text-gray-400 text-xl">Paperback – 1 January
+                            2023</p>
+                    </h1>
+                    <p class="border-b-2 border-lime-500 ">by <a class="text-blue-600"> Shivalik
+                            Bakshi</a>(Author)</p>
+                 
+                        <img src="./images/images/cpt-kamal.jpg" id="image" alt="cpt-kamal" class="mx-auto m-4 image">
+                    
+                </div>
+
+                <p class="p-3 text-lg font-serif text-center">Capt. Kamal Bakshi fought in the 1971 Indo-Pak War and
+                    went missing after the Battle of Chhamb--the bloodiest battle of 1971. Although no one from his
+                    battalion had seen him get killed, no one had been able to locate his body. And so, the military
+                    declared him 'Missing, Believed Killed'--the ambiguous status assigned to soldiers when their death
+                    cannot be confirmed.
+                    However, six years after the war, the Indian government changed its mind. The Ministry of External
+                    Affairs announced in Parliament that Indian intelligence agencies have reason to believe that
+                    Pakistan had not been truthful when it handed over the list of Indian POWs in its custody. It went
+                    on to state the names of at least forty Indian soldiers still believed to be in Pakistani custody
+                    and one of the names was Kamal Bakshi's.
+                    This book has been written by his nephew Shivalik Bakshi. It is his story, recreated from his
+                    letters, diaries, recollections of those who crossed paths with him and published accounts of the
+                    Battle of Chhamb.</p>
+
+            </div>
+            <h1 class="p-3 font-semibold text-2xl">About the Author</h1>
+            <p class="p-3 font-serif text-center text-lg">Shivalik Bakshi was born in Amritsar. He is a
+                microelectromechanical systems (MEMS) engineer by profession. When not working in a laboratory, he likes
+                to investigate the case of his missing uncle. He can be contacted by email at
+                CaptainKamalBakshi@gmail.com.</p>
+        </section>
+
+
+
+        <!--Footer -->
+            <section class="bg-white h-72 relative">
+        <div class="flex justify-between m-20 pt-20">
+            <div class="flex gap-52 items-center">
+
+                
+                    <p class="w-10 text-lime-700 text-2xl font-serif">Heared Enough?
+                    <i class="fa-solid fa-arrow-right" style="padding-left: 70px;"></i></p>
+               
+                <h1 class="text-7xl text-center font-sans text-lime-800 border-b-4 border-b-lime-500" style="font: weight 40px;">Contact Us</h1>
+            </div>
+
+            <!-- icon -->
+           
+                    
+
+        </div>
+
+        <a href="./contact.html">
+            <div class=" bg-lime-300 absolute right-32 bottom-32 rounded-full  w-fit">
+                        <i class="fa-solid fa-arrow-right p-3"></i></div>
+        </a>
+    </section>
+    <section class="w-full h-72 bg-black p-5  ">
+        <div class="">
+
+        </div>
+        <div class="flex gap-20">
+            <div>
+                <h1 class="pt-24 text-5xl text-gray-500" style="font-family: cursive;">TechForze</h1>
+
+            </div>
+
+            <div class="text-gray-500 pt-10">
+                <h2 class="font-bold pb-3  ">ABOUT US</h2>
+                <div>
+                    <p>Work with us</p>
+                    <p>Publish with Us</p>
+                    <p>Publishing Divisions</p>
+                    <p>Social Responsibility</p>
+                    <p>Newsroom</p>
+
+                </div>
+            </div>
+
+            <!-- buenos aires -->
+            <div class="text-gray-500 p-10">
+                <h1 class="font-bold pb-3 ">BUENOS AIRES</h1>
+
+                <div>
+                    <p>techforze@gmail.com</p>
+                    <p>+54 11 6799 7965</p>
+                    <p>Cabido 1432 1st Floor</p>
+                    <p>Buenos aires</p>
+                </div>
+            </div>
+            <!-- follow us -->
+            <div class="text-gray-500 pt-10">
+                <h1 class="font-bold text-2xl pb-3 text-center">Follow Us</h1>
+
+                <div class="">
+                    <i class="fa-brands fa-instagram fa-2xl m-7 " style="color: #606671;"></i>
+                    <i class="fa-brands fa-x-twitter fa-2xl m-7" style="color: #606671;"></i>
+                    <i class="fa-brands fa-linkedin fa-2xl m-7" style="color: #606671;"></i>
+                    <i class="fa-brands fa-facebook  fa-2xl m-7"></i>
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <div>
+            <p class="pt-6 text-center text-gray-500">&copy;2025 Indian's Armed Forces</p>
+        </div>
+    </section>
+
+
+    <script src="./book.js"></script>
+    <script src="./account.js">
+
+
+    </script>
+    </section>
+
+    <script>
+        var images = document.querySelector(".image")
+
+        images.addEventListener("click", () => {
+            window.location.href = "./index.html"
+        })
+    </script>
+
+</body>
+
+</html>

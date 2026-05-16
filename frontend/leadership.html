@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Tailwind CSS CDN Link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind CSS CDN Link -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Icons link -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-200">
+    <section class="bg-gray-100">
+        <!-- Responsive Navbar -->
+        <section class="bg-red-900 sticky z-50 top-0">
+            <nav class="flex justify-between p-3 bg shadow-lg shadow-black border-b border-gray-300">
+                <div class="">
+                    <h1 class="text-2xl font-extrabold text-white">Tech Forze</h1>
+                </div>
+
+                <!-- categories -->
+                <div>
+                    <ul class="flex gap-11 text-white font-medium">
+
+
+                        <li>
+                            <a href="./index.html">Home</a>
+                        </li>
+
+
+                        <li class="">
+                            <a href="./book.html">Books</a>
+
+
+                        </li>
+                        <div>
+                            <li>
+                                <a href="./publish.html">Publish with Us</a>
+                            </li>
+                        </div>
+
+
+                    </ul>
+                </div>
+
+
+
+                <!-- MyAccount -->
+                <div class="relative ">
+                    <!-- Trigger Text -->
+                    <div id="account" class="flex gap-3 items-center ">
+                        <i class="fa-solid fa-user" style="color: #fcf9f9;"></i>
+                        <div class="cursor-pointer mr-4 text-white" onclick="account()">My Account</div>
+                    </div>
+
+                    <!-- Dropdown Menu -->
+                    <div id="menu"
+                        class="absolute  hidden  bg-white w-44 p-4 shadow-lg rounded-lg text-center z-50 top-full right-0">
+                        <a href="./login.html"
+                            class="p-2 bg-red-700 w-36 inline-block mb-2 text-white  rounded hover:bg-red-800">Login</a>
+                        <br>
+                        <a href="./signup.html" class="text-red-700 hover:text-black mb-2">New to TechForze? Sign Up</a>
+                        <br>
+                        <a href="./login.html" class="text-gray-700 hover:text-black mb-2">Your Account</a> <br>
+                        <a href="./login.html" class="text-gray-700 hover:text-black">Your Address</a> <br>
+                    </div>
+                </div>
+            </nav>
+        </section>
+
+        <section>
+            <div>
+
+                <div class="p-5 text-center">
+                    <h1 class="font-bold text-2xl ">LeaderShip in the Indian Army<p class="text-gray-400 text-xl"></p>
+                    </h1>
+                    <p class="border-b-2 border-lime-400 text-gray-500 text-3xl font-serif p-2">V.K Singh</p>
+                    </p>
+                    <a href="./book.html">
+                        <img src="./images/images/leadership.webp" id="image" alt="cpt-kamal"
+                            class="mx-auto m-4 w-72 h-96">
+                    </a>
+                    <span class="font-serif text-lg  ">If you are Buy a Book click</span>
+                    <a class="hover:text-green-400 text-blue-400 hover:underline font-serif text-xl"
+                        href="https://www.penguin.co.in/book/leadership-in-the-indian-army/">
+                        here</a>
+                </div>
+
+                <p class="p-3 text-lg font-serif text-center">The book "Leadership in the Indian Army: Biographies of
+                    Twelve Soldiers" by Major General V.K.
+                    Singh offers an in-depth exploration of military leadership through the personal narratives of
+                    twelve distinguished Indian Army officers. Unlike conventional military biographies that often
+                    focus solely on operations or regimental histories, this work delves into the human aspects of
+                    these leaders, providing insights into their personalities,
+                    decision-making processes, and the challenges they faced.Through personal accounts, anecdotes, and
+                    reminiscences,
+                    Major General Singh sheds light on the human side of these leaders, offering a nuanced understanding
+                    of their strengths,
+                    convictions, and the complexities they navigated. The book also provides context to several
+                    historical events,
+                    including lesser-known operations like Nathu La in 1967 and Goa in 1962, and examines the role of
+                    political leaders
+                    during India's fight for independence and the partitioning of the subcontinent.
+
+
+                    This work is a valuable resource for readers interested in India's military history,
+                    leadership studies, and the personal journeys of its armed forces' stalwarts.</p>
+
+            </div>
+            <h1 class="p-3 font-semibold text-2xl">About the Author</h1>
+            <p class="p-3 font-serif text-center text-lg">Major General V.K. Singh is a distinguished retired officer of
+                the Indian Army, renowned for his extensive service and contributions to military literature. Graduating
+                from the National Defence Academy in May 1964 and the Indian Military Academy in June 1965, he was
+                commissioned into the Corps of Signals. Over a 37-year career, he held several pivotal roles, including
+                Chief Signal Officer of the Western Command and raising the signal regiment for the Army's first
+                mechanized division in 1982.
+
+
+                An alumnus of the Staff College, Wellington; the College of Defence Management, Secunderabad; and the
+                National Defence College, New Delhi, Major General Singh also served as an instructor at premier
+                military institutions. His interests span adventure sports, military history, and journalism, with
+                contributions to various magazines and journals. Post-retirement, he has authored nine books, including
+                Leadership in the Indian Army: Biographies of Twelve Soldiers, which offers personal accounts of
+                exceptional military leaders, shedding light on their personalities and the human aspects of military
+                leadership.
+            </p>
+        </section>
+
+
+
+        <!--Footer -->
+        <section class="bg-white h-72 relative">
+            <div class="flex justify-between m-20 pt-20">
+                <div class="flex gap-52 items-center">
+
+
+                    <p class="w-10 text-lime-700 text-2xl font-serif">Heared Enough?
+                        <i class="fa-solid fa-arrow-right" style="padding-left: 70px;"></i>
+                    </p>
+
+                    <h1 class="text-7xl text-center font-sans text-lime-800 border-b-4 border-b-lime-500"
+                        style="font: weight 40px;">Contact Us</h1>
+                </div>
+
+                <!-- icon -->
+
+
+
+            </div>
+
+            <a href="./contact.html">
+                <div class=" bg-lime-300 absolute right-32 bottom-32 rounded-full  w-fit">
+                    <i class="fa-solid fa-arrow-right p-3"></i>
+                </div>
+            </a>
+        </section>
+        <section class="w-full h-72 bg-black p-5  ">
+            <div class="">
+
+            </div>
+            <div class="flex gap-20">
+                <div>
+                    <h1 class="pt-24 text-5xl text-gray-500" style="font-family: cursive;">TechForze</h1>
+
+                </div>
+
+                <div class="text-gray-500 pt-10">
+                    <h2 class="font-bold pb-3  ">ABOUT US</h2>
+                    <div>
+                        <p>Work with us</p>
+                        <p>Publish with Us</p>
+                        <p>Publishing Divisions</p>
+                        <p>Social Responsibility</p>
+                        <p>Newsroom</p>
+
+                    </div>
+                </div>
+
+                <!-- buenos aires -->
+                <div class="text-gray-500 p-10">
+                    <h1 class="font-bold pb-3 ">BUENOS AIRES</h1>
+
+                    <div>
+                        <p>techforze@gmail.com</p>
+                        <p>+54 11 6799 7965</p>
+                        <p>Cabido 1432 1st Floor</p>
+                        <p>Buenos aires</p>
+                    </div>
+                </div>
+                <!-- follow us -->
+                <div class="text-gray-500 pt-10">
+                    <h1 class="font-bold text-2xl pb-3 text-center">Follow Us</h1>
+
+                    <div class="">
+                        <i class="fa-brands fa-instagram fa-2xl m-7 " style="color: #606671;"></i>
+                        <i class="fa-brands fa-x-twitter fa-2xl m-7" style="color: #606671;"></i>
+                        <i class="fa-brands fa-linkedin fa-2xl m-7" style="color: #606671;"></i>
+                        <i class="fa-brands fa-facebook  fa-2xl m-7"></i>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div>
+                <p class="pt-6 text-center text-gray-500">&copy;2025 Indian's Armed Forces</p>
+            </div>
+        </section>
+
+
+        <script src="./book.js"></script>
+        <script src="./account.js">
+
+
+        </script>
+    </section>
+
+    <script>
+        var image = document.getElementById("image")
+
+        image.addEventListener("click", () => {
+            window.location.href = "./book.html"
+        })
+
+    </script>
+
+
+
+</body>
+
+</html>

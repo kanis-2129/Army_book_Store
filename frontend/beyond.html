@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Tailwind CSS CDN Link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind CSS CDN Link -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Icons link -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-200">
+    <section class="bg-gray-100">
+        <!-- Responsive Navbar -->
+        <section class="bg-red-900 sticky z-50 top-0">
+            <nav class="flex justify-between p-3 bg shadow-lg shadow-black border-b border-gray-300">
+                <div class="">
+                    <h1 class="text-2xl font-extrabold text-white">Tech Forze</h1>
+                </div>
+
+                <!-- categories -->
+                <div>
+                    <ul class="flex gap-11 text-white font-medium">
+
+
+                        <li>
+                            <a href="./index.html">Home</a>
+                        </li>
+
+
+                        <li class="">
+                            <a href="./book.html">Books</a>
+
+
+                        </li>
+                        <div>
+                            <li>
+                                <a href="./publish.html">Publish with Us</a>
+                            </li>
+                        </div>
+
+
+                    </ul>
+                </div>
+
+
+
+                <!-- MyAccount -->
+                <div class="relative ">
+                    <!-- Trigger Text -->
+                    <div id="account" class="flex gap-3 items-center ">
+                        <i class="fa-solid fa-user" style="color: #fcf9f9;"></i>
+                        <div class="cursor-pointer mr-4 text-white" onclick="account()">My Account</div>
+                    </div>
+
+                    <!-- Dropdown Menu -->
+                    <div id="menu"
+                        class="absolute  hidden  bg-white w-44 p-4 shadow-lg rounded-lg text-center z-50 top-full right-0">
+                        <a href="./login.html"
+                            class="p-2 bg-red-700 w-36 inline-block mb-2 text-white  rounded hover:bg-red-800">Login</a>
+                        <br>
+                        <a href="./signup.html" class="text-red-700 hover:text-black mb-2">New to TechForze? Sign Up</a>
+                        <br>
+                        <a href="./login.html" class="text-gray-700 hover:text-black mb-2">Your Account</a> <br>
+                        <a href="./login.html" class="text-gray-700 hover:text-black">Your Address</a> <br>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <section>
+            <div>
+
+                <div class="p-5 text-center">
+                    <h1 class="font-bold text-2xl ">Beyond Fear<p class="text-gray-400 text-xl">Paperback – Nov
+                            2023</p>
+                    </h1>
+                    <p class="border-b-2 border-lime-500 text-gray-500 text-3xl font-serif p-2">Ian Cardozo</p>
+                    </p>
+
+                   
+                        <img id="image" src="./images/images/beyond-fear.jpg" alt="cpt-kamal" class="mx-auto image m-4 w-72 h-96">
+                   
+                </div>
+
+                <p class="p-3 text-lg font-serif">A story from a third-generation soldier of the 1st Battalion, the 5th
+                    Gorkha Rifles (FF) who was killed in combat.
+                    A ghost story narrated to the author by an officer of the Garhwal Rifles while on a visit to
+                    Lansdowne.
+                    A gripping account of the air raid on Pakistan’s airfield at Sargodha in 1965 led by Wing Commander
+                    O.P. Taneja, VrC.
+
+                    These are some of the stories featured in Major General Ian Cardozo’s book Beyond Fear, stories that
+                    inform the reader that fear is not exceptional. It is common to all human beings. The question is:
+                    Do we face fear or run away from it? Through these thirteen stories, he reveals to the reader how
+                    military personnel conquer fear. He calls it ‘biting the bullet’.
+
+                    Through the twists and turns of his stories, he brings out how honour, love, courage, trust, hope,
+                    faith and loyalty help the soldier in his quest to conquer fear and that these very qualities can
+                    help the reader deal with fear in their everyday lives. These stories also show that real life can
+                    sometimes be stranger than fiction.
+
+            </div>
+            <h1 class="p-3 font-semibold text-2xl">About the Author</h1>
+            <p class="p-3 font-serif text-center text-lg">Major General Ian Cardozo was commissioned at the Indian
+                Military Academy into the 1st Battalion of the 5th Gorkha Rifles (Frontier Force), where he received his
+                basic grounding as a young officer. Thereafter, he took part in the Sino–Indian war of 1962, the
+                Indo–Pak war of 1965 and the Indo–Pak war of 1971.
+                Wounded in the battle of Sylhet in Bangladesh, he overcame the disability of losing a leg and became the
+                first disabled officer of the Indian Army to be approved for command of an infantry battalion and
+                brigade. He thereafter commanded an infantry division and retired as Chief of Staff of a corps in the
+                Northeast. On retirement, he worked in the area of disability with an NGO and as vice president of the
+                War Wounded Foundation, before being appointed by the Government of India as chairman of the
+                Rehabilitation Council of India, where he worked for nine years.
+                He is a military historian, author and war poet. His books, poems and autobiography, Cartoos Saab, have
+                been widely acclaimed. His poems on war have been set to music and feature worldwide on leading music
+                platforms. He is also working with an illustrator on graphic novels about the courage and competence of
+                the Indian soldier, of which thirteen have been published so far.</p>
+        </section>
+
+
+
+        <section class="bg-white h-72 relative">
+            <div class="flex justify-between m-20 pt-20">
+                <div class="flex gap-52 items-center">
+
+
+                    <p class="w-10 text-lime-700 text-2xl font-serif">Heared Enough?
+                        <i class="fa-solid fa-arrow-right" style="padding-left: 70px;"></i>
+                    </p>
+
+                    <h1 class="text-7xl text-center font-sans text-lime-800 border-b-4 border-b-lime-500"
+                        style="font: weight 40px;">Contact Us</h1>
+                </div>
+
+                <!-- icon -->
+
+
+
+            </div>
+
+            <a href="./contact.html">
+                <div class=" bg-lime-300 absolute right-32 bottom-32 rounded-full  w-fit">
+                    <i class="fa-solid fa-arrow-right p-3"></i>
+                </div>
+            </a>
+        </section>
+        <section class="w-full h-72 bg-black p-5  ">
+            <div class="">
+
+            </div>
+            <div class="flex gap-20">
+                <div>
+                    <h1 class="pt-24 text-5xl text-gray-500" style="font-family: cursive;">TechForze</h1>
+
+                </div>
+
+                <div class="text-gray-500 pt-10">
+                    <h2 class="font-bold pb-3  ">ABOUT US</h2>
+                    <div>
+                        <p>Work with us</p>
+                        <p>Publish with Us</p>
+                        <p>Publishing Divisions</p>
+                        <p>Social Responsibility</p>
+                        <p>Newsroom</p>
+
+                    </div>
+                </div>
+
+                <!-- buenos aires -->
+                <div class="text-gray-500 p-10">
+                    <h1 class="font-bold pb-3 ">BUENOS AIRES</h1>
+
+                    <div>
+                        <p>techforze@gmail.com</p>
+                        <p>+54 11 6799 7965</p>
+                        <p>Cabido 1432 1st Floor</p>
+                        <p>Buenos aires</p>
+                    </div>
+                </div>
+                <!-- follow us -->
+                <div class="text-gray-500 pt-10">
+                    <h1 class="font-bold text-2xl pb-3 text-center">Follow Us</h1>
+
+                    <div class="">
+                        <i class="fa-brands fa-instagram fa-2xl m-7 " style="color: #606671;"></i>
+                        <i class="fa-brands fa-x-twitter fa-2xl m-7" style="color: #606671;"></i>
+                        <i class="fa-brands fa-linkedin fa-2xl m-7" style="color: #606671;"></i>
+                        <i class="fa-brands fa-facebook  fa-2xl m-7"></i>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div>
+                <p class="pt-6 text-center text-gray-500">&copy;2025 Indian's Armed Forces</p>
+            </div>
+        </section>
+
+
+        <script src="./book.js"></script>
+        <script src="./account.js">
+
+
+        </script>
+    </section>
+
+    <script>
+        var images = document.querySelector(".image")
+
+        images.addEventListener("click", () => {
+            window.location.href = "./index.html"
+        })
+    </script>
+
+
+
+</body>
+
+</html>
