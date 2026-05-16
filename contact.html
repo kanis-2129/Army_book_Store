@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact page</title>
+    <!-- Tailwind CSS CDN Link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Icons link -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body style="background-image: url('./images/images/bg.avif');">
+
+    <!-- Responsive Navbar -->
+    <section class="bg-red-900 sticky z-50 top-0">
+        <nav class="flex justify-between p-3 bg shadow-lg shadow-black border-b border-gray-300">
+            <div>
+                <h1 class="text-2xl font-extrabold text-white">Tech Forze</h1>
+            </div>
+
+            <!-- categories -->
+            <div>
+                <ul class="flex gap-11 text-white font-medium">
+                    <li>
+                        <a href="./index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="./book.html">Books</a>
+                    </li>
+                    <li>
+                        <a href="./publish.html">Publish with Us</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- MyAccount -->
+            <div class="relative">
+                <!-- Trigger Text -->
+                <div id="account" class="flex gap-3 items-center">
+                    <i class="fa-solid fa-user" style="color: #fcf9f9;"></i>
+                    <div class="cursor-pointer mr-4 text-white" onclick="account()">My Account</div>
+                </div>
+
+                <!-- Dropdown Menu -->
+                <div id="menu" class="absolute hidden bg-white w-44 p-4 shadow-lg rounded-lg text-center z-50 top-full right-0">
+                    <a href="./login.html" class="p-2 bg-red-700 w-36 inline-block mb-2 text-white rounded hover:bg-red-800">Login</a>
+                    <br>
+                    <a href="./signup.html" class="text-red-700 hover:text-black mb-2">New to TechForze? Sign Up</a>
+                    <br>
+                    <a href="./login.html" class="text-gray-700 hover:text-black mb-2">Your Account</a> <br>
+                    <a href="./login.html" class="text-gray-700 hover:text-black">Your Address</a> <br>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!--Contact details -->
+    <section class="m-10 bg-white mx-auto rounded-3xl shadow-lg shadow-gray-400" style="width: fit-content;">
+        <h1 class="text-center text-2xl p-5 border-b-2 border-b-gray-600">Contact Us</h1>
+        <div class="m-4">
+
+            <!-- WEB3FORMS CONNECTED HERE -->
+            <form action="https://api.web3forms.com/submit" method="POST" id="contactForm">
+
+                <!-- ⚠️ முக்கியம்: web3forms.com-la வாங்குன Key-ஐ இங்க போடுங்க -->
+                <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+
+                <!-- மெயில் அனுப்பி முடிச்சதும் பயனர் எந்த பக்கத்திற்கு போகணும்? (உங்க வெர்சல் லிங்க்) -->
+                <input type="hidden" name="redirect" value="https://army-book-store.vercel.app/contact.html">
+
+                <input id="name" type="text" name="name" placeholder="Enter your first & Last name"
+                    class="w-96 p-2 text-sm m-3 border border-blue-300 rounded-lg" required> <br>
+
+                <input id="mobile" name="number" type="number" placeholder="Enter your Mobile Number"
+                    class="w-11/12 p-2 text-sm m-3 border border-blue-300 rounded-lg" required> <br>
+
+                <input id="email" name="email" type="email" placeholder="Enter name21@gmail.com"
+                    class="w-11/12 p-2 text-sm m-3 border border-blue-300 rounded-lg" required> <br>
+
+                <textarea id="msg" name="feedback" placeholder="Give your Queries or Feedback"
+                    class="w-11/12 p-2 text-sm m-3 border border-blue-300 rounded-lg" required></textarea>
+
+                <div class="flex justify-end">
+                    <button id="send" type="submit"
+                        class="bg-gray-500 text-white p-2 rounded-lg m-6 w-80 mx-auto hover:text-blue-400 hover:bg-gray-200">send</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <section class="w-full h-72 bg-black p-5">
+        <div class="flex gap-20">
+            <div>
+                <h1 class="pt-24 text-5xl text-gray-500" style="font-family: cursive;">TechForze</h1>
+            </div>
+
+            <div class="text-gray-500 pt-10">
+                <h2 class="font-bold pb-3">ABOUT US</h2>
+                <div>
+                    <p>Work with us</p>
+                    <p>Publish with Us</p>
+                    <p>Publishing Divisions</p>
+                    <p>Social Responsibility</p>
+                    <p>Newsroom</p>
+                </div>
+            </div>
+
+            <!-- buenos aires -->
+            <div class="text-gray-500 p-10">
+                <h1 class="font-bold pb-3">BUENOS AIRES</h1>
+                <div>
+                    <p>techforze@gmail.com</p>
+                    <p>+54 11 6799 7965</p>
+                    <p>Cabido 1432 1st Floor</p>
+                    <p>Buenos aires</p>
+                </div>
+            </div>
+
+            <!-- follow us -->
+            <div class="text-gray-500 pt-10">
+                <h1 class="font-bold text-2xl pb-3 text-center">Follow Us</h1>
+                <div>
+                    <i class="fa-brands fa-instagram fa-2xl m-7" style="color: #606671;"></i>
+                    <i class="fa-brands fa-x-twitter fa-2xl m-7" style="color: #606671;"></i>
+                    <i class="fa-brands fa-linkedin fa-2xl m-7" style="color: #606671;"></i>
+                    <i class="fa-brands fa-facebook fa-2xl m-7"></i>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <p class="pt-6 text-center text-gray-500">&copy;2026 Indian's Armed Forces</p>
+        </div>
+    </section>
+
+    <script>
+        const account = () => {
+            var menu = document.getElementById("menu")
+            if (menu.style.display === "block") {
+                menu.style.display = "none"
+            } else {
+                menu.style.display = "block"
+            }
+        }
+    </script>
+</body>
+
+</html>
